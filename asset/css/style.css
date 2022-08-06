@@ -22,7 +22,24 @@
 }
 
 
+.form-control {
+  display: block;
+  border: 1px solid var(--primary-color);
+}
+.form-control:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 0.25rem rgba(13, 109, 253, 0.11);
+}
+.form-select {
 
+  border: 1px solid var(--primary-color);
+ 
+}
+.form-select:focus {
+  border-color: var(--primary-color);
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.11);
+}
 /* header section starts */
 #hero{
   height: 100vh;
@@ -33,7 +50,7 @@
 
 }
 .nav-link{
-  
+
   font-weight: bold;
 color: black!important;
 text-transform: uppercase;
@@ -208,3 +225,60 @@ height: 100%;
   flex-basis: 50%;
 }
 /* item-card ens */
+
+
+/* order page starts */
+
+/* header section starts */
+#hero-order{
+  height: 60vh;
+  background:linear-gradient(45deg,rgba(0, 0, 0, 0.363),rgba(5, 10, 3, 0.863)),url(../images/landing_three.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.header-details-order{
+  position: absolute;
+  width: 100%;
+  top:25%;
+  left:1%;
+  text-align: center;
+  /* transform: translate(-50%,-50%); */
+  color:white;
+
+}
+
+
+.form-container{
+
+  width: 800px;
+  height: 400px;
+position: relative;
+display: flex;
+background:#fff;
+}
+.form-container .left{
+  flex-basis:40%;
+}
+.form-container .left img{
+  position: absolute;
+  width: 40%;
+  height: 100%;
+  object-fit: cover;
+}
+.form-container .right{
+  flex-basis: 60%;
+
+}
+.order-form{
+  position: absolute;
+  margin-top: -10rem;
+}
+.price-order{
+  position: absolute;
+ right:60%;
+ background: var(--primary-color)!important;
+}
+/* order page end */
+
