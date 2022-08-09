@@ -231,7 +231,7 @@ height: 100%;
 
 /* header section starts */
 #hero-order{
-  height: 60vh;
+  height: 70vh;
   background:linear-gradient(45deg,rgba(0, 0, 0, 0.363),rgba(5, 10, 3, 0.863)),url(../images/landing_three.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -252,8 +252,8 @@ height: 100%;
 
 .form-container{
 
-  width: 800px;
-  height: 400px;
+  width: 60rem;
+  height: 28rem;
 position: relative;
 display: flex;
 background:#fff;
@@ -273,7 +273,7 @@ background:#fff;
 }
 .order-form{
   position: absolute;
-  margin-top: -10rem;
+  margin-top: -15rem;
 }
 .price-order{
   position: absolute;
